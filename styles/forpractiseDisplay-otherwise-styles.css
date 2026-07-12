@@ -1,0 +1,22 @@
+article{
+    background-color:blueviolet;
+}
+h2{
+    text-align: center;
+}
+#second-article{
+    /* display: none; mane website e show korbe na */
+    /* visibility:hidden; mne dekhabe na but jayga nibe website  */
+}
+/*span hocceh inline tag eta diye jekono line k nirdisto kore style apply kora jay,,,display block deyar ageh sudu color dile 
+seta likhar same line ei color korbe but display block deyar pore sudu span er vitorer part k alada line e rakhbe aaaandd same line e jokhn inline akare thakbe
+tokhon height width dile nibe na but display block kore deyar pore height width nibe alada line e*/
+span{
+    color:chocolate;
+    /* display: block; */
+/* display: inline-block; and display inline block dile seta same line ei height widht nibe */
+    width: 250px;
+    height: 50px;
+    border: 2px solid red;
+
+}
