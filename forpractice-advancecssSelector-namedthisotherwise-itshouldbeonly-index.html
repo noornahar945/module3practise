@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>advanced selector</title>
+    <style>
+        /*normally we use 4 types of selector*/
+
+        /*tag selector
+          tag {}        */
+
+
+        /*class selector 
+             .class {}      */
+
+
+        /* id selector  
+           #id {}  */
+
+        /*rarely used universal selector 
+              * {}     */
+
+        ol,
+        ul,
+        p,
+        .special {
+            background-color: aquamarine;
+        }
+
+        .red {
+            color: red;
+        }
+
+        .green {
+            color: green;
+        }
+
+        .bold {
+            font-weight: 800;
+        }
+
+        /*combined selector*/
+        .green.bold {
+            font-size: 1.5rem;
+        }
+
+        article {
+            background-color: salmon;
+        }
+
+        /*nested selector
+               article p{
+                color:purple;
+              }*/
+        /* article er sob paragraph e jabe na just immidiate child e jabe*/
+        article>p {
+            color: white;
+        }
+    </style>
+</head>
+
+<body>
+    <h2>this is heading</h2>
+    <h2 class="special">this is heading</h2>
+    <h2>this is heading</h2>
+    <p>this is simple paragraph</p>
+    <article>
+        <h3>this is heading</h3>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Veniam nam laudantium dolor excepturi fugiat dolores
+            nulla ipsum quae est fugit quis, minima eum corporis vero nihil voluptatum, nisi optio error.</p>
+        <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Fuga doloremque mollitia dolore, consequuntur
+            obcaecati inventore perspiciatis quasi ipsa quis laudantium vel itaque incidunt officia quisquam debitis,
+            porro eligendi. Deserunt, repellat?</p>
+
+    </article>
+    <article>
+        <h3>this is heading</h3>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Veniam nam laudantium dolor excepturi fugiat dolores
+            nulla ipsum quae est fugit quis, minima eum corporis vero nihil voluptatum, nisi optio error.</p>
+        <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Fuga doloremque mollitia dolore, consequuntur
+            obcaecati inventore perspiciatis quasi ipsa quis laudantium vel itaque incidunt officia quisquam debitis,
+            porro eligendi. Deserunt, repellat?</p>
+         <div>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Sit voluptas placeat, praesentium, repellat similique dolore dolorem facere earum eaque maxime aut asperiores magnam. Sit tempora quo placeat cum quis voluptatum!</p>
+         </div>
+    </article>
+    <ol>
+        <li>item1</li>
+        <li class="red bold">item2</li> <!--ekhane eki sateh 2 ta class add korsi
+         just majeh ekta space diye evabeo chaile ekta tag er moddeh koyekta class attribute define kora jay-->
+        <li class="bold">item3</li>
+        <li>item4</li>
+        <li>item5</li>
+    </ol>
+    <ul>
+        <li>item1</li>
+        <li class="green bold">item2</li>
+        <li class="green">item3</li>
+        <li>item4</li>
+        <li>item5</li>
+    </ul>
+</body>
+
+</html>
