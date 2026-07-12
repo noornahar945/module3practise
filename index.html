@@ -1,7 +1,8 @@
 
-   <!--in this we learn inline and internal css style-->
-<!DOCTYPE html>
-<html lang="en">
+
+ <!-- in this we learn inline and internal css style-->
+  <!DOCTYPE html> 
+ <html lang="en">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -24,13 +25,35 @@
         /*background color */
         section{
             background-color: red;
-            width: 100%;
+          
         }
         /*universal selector*/
         *{
             font-style: italic;
         }
-       
+        #firstsection{
+           background-color: darkgreen;
+           width: 50%;
+          /* height: 500px;*/
+           
+        }
+        .highest-size{
+            font-size: 32px;
+        }
+
+       .size-in-rem{
+        font-size: 3rem;
+       }
+       h4{
+        text-align: center;
+       }
+       .font-family-paragraph{
+        font-family: Arial, Helvetica, sans-serif;
+       }
+       /*100theke900porjonto value 900 hocceh extra bold,400 diye normal text bujay ,bold 700 etc mne 100 thekeh suru hoy hightest 900*/
+       .large-paragraph{
+        font-weight:bold ;
+       }
        
        
      </style>
@@ -53,13 +76,13 @@
      <h4>her class roll is 46</h4>
      <h4>her class roll is 46</h4>
      <!--background color-->
-<section>
-     <h4>background color</h4>
-     <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.
+<section id="firstsection">
+     <h4 class="highest-size">background color</h4>
+     <p class="large-paragraph">Lorem ipsum dolor sit amet consectetur adipisicing elit.
          Error, magnam vitae? Blanditiis sequi mollitia eum,
           ipsam fuga obcaecati illo! Quia pariatur, 
           libero blanditiis fugiat sint rerum repellat labore laborum veniam.</p>
-     <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.
+     <p class="font-family-paragraph">Lorem ipsum dolor sit amet consectetur adipisicing elit.
          Error, magnam vitae? Blanditiis sequi mollitia eum,
           ipsam fuga obcaecati illo! Quia pariatur, 
           libero blanditiis fugiat sint rerum repellat labore laborum veniam.</p>
@@ -74,7 +97,7 @@
           ipsam fuga obcaecati illo! Quia pariatur, 
           libero blanditiis fugiat sint rerum repellat labore laborum veniam.</p>
   
-     <h4>background color</h4>
+     <h4 class="size-in-rem">background color</h4>
       <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.
          Error, magnam vitae? Blanditiis sequi mollitia eum,
       
@@ -107,4 +130,4 @@
           libero blanditiis fugiat sint rerum repellat labore laborum veniam.</p>
           </section>
 </body>
-</html>
+</html> 
