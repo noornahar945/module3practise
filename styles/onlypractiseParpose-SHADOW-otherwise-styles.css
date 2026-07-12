@@ -1,0 +1,22 @@
+.blog {
+    background-color: palevioletred;
+    width: 400px;
+    margin: 50px;
+    /* box-shadow: 20px 20px 50px; 1 x axis 2 y axis 3 man joto barbe toto besi halka hoye spread korbe*/
+    /* box-shadow: 20px 20px 0px; 1 x axis 2 y axis 3 solid */
+    /* box-shadow: -20px 20px 50px; 1 x axisleft e besi as- 2 y axis 3 man joto barbe toto besi halka hoye spread korbe */
+    /* box-shadow: 20px -20px 50px; 1 x axis  2 y axis uporer dike besi besi as- 3 man joto barbe toto besi halka hoye spread korbe */
+}
+#header{
+    background-color: aqua;
+    background-image: url(../styles/images/whiterose.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    height: 1200px;
+
+}
+#header h1{
+    text-align: center;
+    padding:50px;
+}
